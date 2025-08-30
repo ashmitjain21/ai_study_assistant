@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Study Assistant</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>AI Study Assistant</h1>
-    </header>
-    <main>
-        <!-- Content goes here -->
-    </main>
-    <footer>
-        <p>&copy; 2024 AI Study Assistant</p>
-    </footer>
+        <p>Paste your text below and click the button suitable to your need. </p>
+
+        <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+        
+        <button id="summarizeButton">Get Summary</button>
+        
+        <div id="result">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
